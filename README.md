@@ -68,6 +68,20 @@ Choose sort by price or sort by time.
 
 Click Search — results load instantly without reloading the page.
 
+
+## Docker Deployment
+
+This project is containerized using Docker for easy deployment and development.
+
+```
+1️⃣ Build Docker image
+     docker compose build
+2️⃣ Run migrations
+     docker-compose run web python manage.py migrate
+3️⃣ Start Django App in Docker
+     docker compose up
+```
+
 ## Demo Video
 ```
 youtube
