@@ -1,0 +1,29 @@
+{% if trains %}
+<h5 class="mt-4">Results from {{ source.name }} to {{ destination.name }}</h5>
+<div class="table-responsive">
+    <table class="table table-striped table-hover mt-2">
+        <thead class="table-dark">
+            <tr>
+                <th>Train</th>
+                <th>Departure</th>
+                <th>Arrival</th>
+                <th>Distance (km)</th>
+                <th>Price (Rs)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for t in trains %}
+            <tr>
+                <td>{{ t.train }}</td>
+                <td>{{ t.departure }}</td>
+                <td>{{ t.arrival }}</td>
+                <td>{{ t.distance }}</td>
+                <td>{{ t.price }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% else %}
+<div class="alert alert-warning mt-4">No trains available for the selected route.</div>
+{% endif %}
