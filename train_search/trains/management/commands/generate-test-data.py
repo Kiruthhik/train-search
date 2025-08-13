@@ -66,7 +66,6 @@ class Command(BaseCommand):
 
         # Create 1000 trains
         for i in range(1, 101):
-            print(i)
             train = Train.objects.create(name=f"Train {i}")
             num_stops = random.randint(5, 15)
             route_stations = random.sample(stations, num_stops)
