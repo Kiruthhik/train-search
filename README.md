@@ -24,27 +24,26 @@ Users can select **source** and **destination** stations, sort results by **pric
 ---
 
 ## 📂 Project Structure
-train_search/
-│
-├── trains/ # App
-│ ├── templates/trains/ # HTML templates
-│ │ ├── home.html
-│ │ ├── results_partial.html
-│ ├── management/commands/ # Custom commands
-│ │ └── generate_test_data.py
-│ ├── models.py
-│ ├── views.py
-│ ├── urls.py
-│
-├── train_search/ # Django project settings
-│ ├── settings.py
-│ ├── urls.py
-│
-├── requirements.txt
-├── manage.py
-└── README.md
+train_search/\
+│\
+├── trains/ # App\
+│ ├── templates/trains/ # HTML templates\
+│ │ ├── home.html\
+│ │ ├── results_partial.html\
+│ ├── management/commands/ # Custom commands\
+│ │ └── generate_test_data.py\
+│ ├── models.py\
+│ ├── views.py\
+│ ├── urls.py\
+│\
+├── train_search/ # Django project settings\
+│ ├── settings.py\
+│ ├── urls.py\
+│\
+├── requirements.txt\
+├── manage.py\
+└── README.md\
 
----
 
 ## ⚙️ Installation & Setup
 
