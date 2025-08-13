@@ -16,9 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
-from trains import urls
+from train_search.trains import urls
 
 urlpatterns = [
-    path('', include('trains.urls')),
+    path('', include('train_search.trains.urls')),
     path('admin/', admin.site.urls),
 ]
