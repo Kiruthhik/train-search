@@ -1,0 +1,17 @@
+<form method="get" action="{% url 'results' %}">
+  <label>Source:</label>
+  <select name="source" required>
+    {% for station in stations %}
+    <option value="{{ station.id }}">{{ station.name }}</option>
+    {% endfor %}
+  </select>
+
+  <label>Destination:</label>
+  <select name="destination" required>
+    {% for station in stations %}
+    <option value="{{ station.id }}">{{ station.name }}</option>
+    {% endfor %}
+  </select>
+
+  <button type="submit">Search</button>
+</form>

@@ -1,0 +1,23 @@
+<h2>Trains from {{ source.name }} to {{ destination.name }}</h2>
+{% if trains %}
+<table>
+  <tr>
+    <th>Train</th>
+    <th>Departure</th>
+    <th>Arrival</th>
+    <th>Distance (km)</th>
+    <th>Price (Rs)</th>
+  </tr>
+  {% for t in trains %}
+  <tr>
+    <td>{{ t.train }}</td>
+    <td>{{ t.departure }}</td>
+    <td>{{ t.arrival }}</td>
+    <td>{{ t.distance }}</td>
+    <td>{{ t.price }}</td>
+  </tr>
+  {% endfor %}
+</table>
+{% else %}
+<p>No trains available for this route.</p>
+{% endif %}
