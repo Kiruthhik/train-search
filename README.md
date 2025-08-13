@@ -49,20 +49,28 @@ train_search/\
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Kiruthhik/train-search.git
 cd train_search
 3️⃣ Install Dependencies
 pip install -r requirements.txt
 4️⃣ Apply Migrations
 python manage.py migrate
-5️⃣ Generate Test Data
-python manage.py generate_test_data
+5️⃣ Generate Test Data (stations and trains)
+python manage.py generate-test-data
 6️⃣ Run the Development Server
 python manage.py runserver
 Visit http://127.0.0.1:8000/ in your browser.
+```
 🔄 Usage
 Select source and destination stations from the dropdown.
 
 Choose sort by price or sort by time.
 
 Click Search — results load instantly without reloading the page.
+
+## Demo Video
+```
+youtube
+https://youtu.be/TJiMVULz6XQ
+```
+
