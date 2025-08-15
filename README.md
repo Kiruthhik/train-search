@@ -85,7 +85,7 @@ This project is containerized using Docker for easy deployment and development.
 This project is successfully deployed in render and is live now...
 
 ```
-Link : https://train-application-n57o.onrender.com/
+https://train-application-n57o.onrender.com/
 ```
 
 ## Demo Video
