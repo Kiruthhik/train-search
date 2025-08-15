@@ -81,6 +81,12 @@ This project is containerized using Docker for easy deployment and development.
 3️⃣ Start Django App in Docker
      docker compose up
 ```
+## Website Deployed
+This project is successfully deployed in render and is live now...
+
+```
+Link : https://train-application-n57o.onrender.com/
+```
 
 ## Demo Video
 ```
