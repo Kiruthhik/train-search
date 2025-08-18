@@ -43,6 +43,8 @@ train_search/\
 ├── requirements.txt\
 ├── manage.py\
 └── README.md\
+└── DockerFile\
+└── docker-compose.yml\
 
 
 ## ⚙️ Installation & Setup
